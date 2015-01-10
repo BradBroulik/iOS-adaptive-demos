@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9131BA411A26641A003DF798 /* ResponsiveDemosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131BA401A26641A003DF798 /* ResponsiveDemosTableViewController.swift */; };
+		91456B241A2A9B7C001C0B64 /* PresentPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91456B231A2A9B7C001C0B64 /* PresentPopoverViewController.swift */; };
+		9168D57B1A504FF2007FB8BA /* MostlyFluidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9168D57A1A504FF2007FB8BA /* MostlyFluidViewController.swift */; };
+		91A023FA1A18EB5C00C93464 /* FlexibleFontsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A023F91A18EB5C00C93464 /* FlexibleFontsTableViewController.swift */; };
+		91A023FC1A18F8DE00C93464 /* CustomSubtitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A023FB1A18F8DE00C93464 /* CustomSubtitleTableViewCell.swift */; };
+		91AAC8C11A30E627004B6659 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AAC8C01A30E627004B6659 /* UIViewControllerExtensions.swift */; };
+		91AAC8C31A311FCB004B6659 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AAC8C21A311FCB004B6659 /* DetailViewController.swift */; };
+		91AAC9091A38826A004B6659 /* StaticCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AAC9081A38826A004B6659 /* StaticCollectionViewController.swift */; };
+		91AAC90B1A3886A9004B6659 /* StaticCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AAC90A1A3886A9004B6659 /* StaticCollectionViewDataSource.swift */; };
+		91AAC90D1A38BA84004B6659 /* StaticCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AAC90C1A38BA84004B6659 /* StaticCollectionViewCell.swift */; };
+		91B836911A2AA095000FB726 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B836901A2AA095000FB726 /* PopoverViewController.swift */; };
 		91C1D7C11A18DBC8005C8B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C1D7C01A18DBC8005C8B85 /* AppDelegate.swift */; };
-		91C1D7C31A18DBC8005C8B85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C1D7C21A18DBC8005C8B85 /* ViewController.swift */; };
 		91C1D7C61A18DBC8005C8B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C1D7C41A18DBC8005C8B85 /* Main.storyboard */; };
 		91C1D7C81A18DBC8005C8B85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C1D7C71A18DBC8005C8B85 /* Images.xcassets */; };
 		91C1D7CB1A18DBC8005C8B85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91C1D7C91A18DBC8005C8B85 /* LaunchScreen.xib */; };
@@ -26,10 +36,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9131BA401A26641A003DF798 /* ResponsiveDemosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponsiveDemosTableViewController.swift; path = Controllers/ResponsiveDemosTableViewController.swift; sourceTree = "<group>"; };
+		91456B231A2A9B7C001C0B64 /* PresentPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresentPopoverViewController.swift; path = Controllers/PresentPopoverViewController.swift; sourceTree = "<group>"; };
+		9168D57A1A504FF2007FB8BA /* MostlyFluidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MostlyFluidViewController.swift; path = Controllers/MostlyFluidViewController.swift; sourceTree = "<group>"; };
+		91A023F91A18EB5C00C93464 /* FlexibleFontsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexibleFontsTableViewController.swift; path = Controllers/FlexibleFontsTableViewController.swift; sourceTree = "<group>"; };
+		91A023FB1A18F8DE00C93464 /* CustomSubtitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSubtitleTableViewCell.swift; sourceTree = "<group>"; };
+		91AAC8C01A30E627004B6659 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = Extensions/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		91AAC8C21A311FCB004B6659 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Controllers/DetailViewController.swift; sourceTree = "<group>"; };
+		91AAC9081A38826A004B6659 /* StaticCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StaticCollectionViewController.swift; path = Controllers/StaticCollectionViewController.swift; sourceTree = "<group>"; };
+		91AAC90A1A3886A9004B6659 /* StaticCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StaticCollectionViewDataSource.swift; path = DataSources/StaticCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		91AAC90C1A38BA84004B6659 /* StaticCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticCollectionViewCell.swift; sourceTree = "<group>"; };
+		91B836901A2AA095000FB726 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopoverViewController.swift; path = Controllers/PopoverViewController.swift; sourceTree = "<group>"; };
 		91C1D7BB1A18DBC8005C8B85 /* ResponsiveDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResponsiveDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C1D7BF1A18DBC8005C8B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91C1D7C01A18DBC8005C8B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91C1D7C21A18DBC8005C8B85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91C1D7C51A18DBC8005C8B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91C1D7C71A18DBC8005C8B85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91C1D7CA1A18DBC8005C8B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -77,12 +97,15 @@
 		91C1D7BD1A18DBC8005C8B85 /* ResponsiveDemos */ = {
 			isa = PBXGroup;
 			children = (
+				91EA8C851A60A9B2006F97EA /* Controllers */,
 				91C1D7C01A18DBC8005C8B85 /* AppDelegate.swift */,
-				91C1D7C21A18DBC8005C8B85 /* ViewController.swift */,
 				91C1D7C41A18DBC8005C8B85 /* Main.storyboard */,
+				91EA8C861A60A9F4006F97EA /* DataSources */,
+				91EA8C881A60AA4E006F97EA /* Views */,
 				91C1D7C71A18DBC8005C8B85 /* Images.xcassets */,
 				91C1D7C91A18DBC8005C8B85 /* LaunchScreen.xib */,
 				91C1D7BE1A18DBC8005C8B85 /* Supporting Files */,
+				91EA8C871A60AA18006F97EA /* Extensions */,
 			);
 			path = ResponsiveDemos;
 			sourceTree = "<group>";
@@ -110,6 +133,45 @@
 				91C1D7D51A18DBC8005C8B85 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91EA8C851A60A9B2006F97EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9168D57A1A504FF2007FB8BA /* MostlyFluidViewController.swift */,
+				91AAC9081A38826A004B6659 /* StaticCollectionViewController.swift */,
+				91A023F91A18EB5C00C93464 /* FlexibleFontsTableViewController.swift */,
+				9131BA401A26641A003DF798 /* ResponsiveDemosTableViewController.swift */,
+				91456B231A2A9B7C001C0B64 /* PresentPopoverViewController.swift */,
+				91B836901A2AA095000FB726 /* PopoverViewController.swift */,
+				91AAC8C21A311FCB004B6659 /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		91EA8C861A60A9F4006F97EA /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				91AAC90A1A3886A9004B6659 /* StaticCollectionViewDataSource.swift */,
+			);
+			name = DataSources;
+			sourceTree = "<group>";
+		};
+		91EA8C871A60AA18006F97EA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				91AAC8C01A30E627004B6659 /* UIViewControllerExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		91EA8C881A60AA4E006F97EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91AAC90C1A38BA84004B6659 /* StaticCollectionViewCell.swift */,
+				91A023FB1A18F8DE00C93464 /* CustomSubtitleTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +274,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91C1D7C31A18DBC8005C8B85 /* ViewController.swift in Sources */,
+				91B836911A2AA095000FB726 /* PopoverViewController.swift in Sources */,
+				9168D57B1A504FF2007FB8BA /* MostlyFluidViewController.swift in Sources */,
+				91AAC9091A38826A004B6659 /* StaticCollectionViewController.swift in Sources */,
+				91AAC8C11A30E627004B6659 /* UIViewControllerExtensions.swift in Sources */,
+				91AAC90B1A3886A9004B6659 /* StaticCollectionViewDataSource.swift in Sources */,
+				91AAC90D1A38BA84004B6659 /* StaticCollectionViewCell.swift in Sources */,
+				9131BA411A26641A003DF798 /* ResponsiveDemosTableViewController.swift in Sources */,
+				91456B241A2A9B7C001C0B64 /* PresentPopoverViewController.swift in Sources */,
 				91C1D7C11A18DBC8005C8B85 /* AppDelegate.swift in Sources */,
+				91A023FA1A18EB5C00C93464 /* FlexibleFontsTableViewController.swift in Sources */,
+				91A023FC1A18F8DE00C93464 /* CustomSubtitleTableViewCell.swift in Sources */,
+				91AAC8C31A311FCB004B6659 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +412,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ResponsiveDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ResponsiveDemos;
 			};
 			name = Debug;
 		};
@@ -350,7 +422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ResponsiveDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ResponsiveDemos;
 			};
 			name = Release;
 		};
@@ -368,7 +440,7 @@
 				);
 				INFOPLIST_FILE = ResponsiveDemosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ResponsiveDemosTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResponsiveDemos.app/ResponsiveDemos";
 			};
 			name = Debug;
@@ -383,7 +455,7 @@
 				);
 				INFOPLIST_FILE = ResponsiveDemosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ResponsiveDemosTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResponsiveDemos.app/ResponsiveDemos";
 			};
 			name = Release;
@@ -407,6 +479,7 @@
 				91C1D7DC1A18DBC8005C8B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91C1D7DD1A18DBC8005C8B85 /* Build configuration list for PBXNativeTarget "ResponsiveDemosTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +488,7 @@
 				91C1D7DF1A18DBC8005C8B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

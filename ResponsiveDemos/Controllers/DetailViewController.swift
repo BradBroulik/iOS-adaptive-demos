@@ -1,25 +1,26 @@
 //
-//  ViewController.swift
+//  DetailViewController.swift
 //  ResponsiveDemos
 //
-//  Created by Brad Broulik on 11/16/14.
+//  Created by Brad Broulik on 12/4/14.
 //  Copyright (c) 2014 Brad Broulik. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class DetailViewController: UIViewController {
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        showLeftBarButtonItem()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
 
