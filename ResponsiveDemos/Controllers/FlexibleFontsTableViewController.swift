@@ -29,12 +29,12 @@ class FlexibleFontsViewController: UITableViewController {
         
         clinicNames = [String](clinics.keys)
         
-        tableView.estimatedRowHeight = 68.0
+        tableView.estimatedRowHeight = 48.0
         tableView.rowHeight = UITableViewAutomaticDimension
-        
+
         showLeftBarButtonItem()
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
