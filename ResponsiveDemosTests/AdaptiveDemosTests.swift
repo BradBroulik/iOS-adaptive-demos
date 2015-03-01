@@ -1,6 +1,6 @@
 //
-//  ResponsiveDemosTests.swift
-//  ResponsiveDemosTests
+//  AdaptiveDemosTests.swift
+//  AdaptiveDemosTests
 //
 //  Created by Brad Broulik on 11/16/14.
 //  Copyright (c) 2014 Brad Broulik. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class ResponsiveDemosTests: XCTestCase {
+class AdaptiveDemosTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
