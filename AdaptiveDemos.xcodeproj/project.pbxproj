@@ -31,7 +31,7 @@
 			containerPortal = 91C1D7B31A18DBC8005C8B85 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 91C1D7BA1A18DBC8005C8B85;
-			remoteInfo = ResponsiveDemos;
+			remoteInfo = AdaptiveDemos;
 		};
 /* End PBXContainerItemProxy section */
 
