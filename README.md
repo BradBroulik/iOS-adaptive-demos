@@ -1,2 +1,2 @@
-# iOS-responsive-demos
-iOS Responsive Demos
+# iOS-adaptive-demos
+iOS Adaptive Demos
