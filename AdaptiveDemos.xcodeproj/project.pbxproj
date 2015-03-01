@@ -108,7 +108,7 @@
 				91EA8C871A60AA18006F97EA /* Extensions */,
 			);
 			name = AdpativeDemos;
-			path = ResponsiveDemos;
+			path = AdaptiveDemos;
 			sourceTree = "<group>";
 		};
 		91C1D7BE1A18DBC8005C8B85 /* Supporting Files */ = {
@@ -126,7 +126,7 @@
 				91C1D7D41A18DBC8005C8B85 /* Supporting Files */,
 			);
 			name = AdaptiveDemosTests;
-			path = ResponsiveDemosTests;
+			path = AdaptiveDemosTests;
 			sourceTree = "<group>";
 		};
 		91C1D7D41A18DBC8005C8B85 /* Supporting Files */ = {
@@ -192,7 +192,7 @@
 			dependencies = (
 			);
 			name = AdaptiveDemos;
-			productName = ResponsiveDemos;
+			productName = AdaptiveDemos;
 			productReference = 91C1D7BB1A18DBC8005C8B85 /* AdaptiveDemos.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -210,7 +210,7 @@
 				91C1D7D21A18DBC8005C8B85 /* PBXTargetDependency */,
 			);
 			name = AdaptiveDemosTests;
-			productName = ResponsiveDemosTests;
+			productName = AdaptiveDemosTests;
 			productReference = 91C1D7D01A18DBC8005C8B85 /* AdaptiveDemosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -412,7 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ResponsiveDemos/Info.plist;
+				INFOPLIST_FILE = AdaptiveDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = AdaptiveDemos;
 			};
@@ -422,7 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ResponsiveDemos/Info.plist;
+				INFOPLIST_FILE = AdaptiveDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = AdaptiveDemos;
 			};
@@ -440,10 +440,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ResponsiveDemosTests/Info.plist;
+				INFOPLIST_FILE = AdaptiveDemosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = AdaptiveDemosTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResponsiveDemos.app/ResponsiveDemos";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdaptiveDemos.app/AdaptiveDemos";
 			};
 			name = Debug;
 		};
@@ -455,10 +455,10 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ResponsiveDemosTests/Info.plist;
+				INFOPLIST_FILE = AdaptiveDemosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = AdaptiveDemosTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResponsiveDemos.app/ResponsiveDemos";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdaptiveDemos.app/AdaptiveDemos";
 			};
 			name = Release;
 		};
