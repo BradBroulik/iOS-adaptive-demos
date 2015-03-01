@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91C1D7BA1A18DBC8005C8B85"
                BuildableName = "ResponsiveDemos.app"
-               BlueprintName = "ResponsiveDemos"
-               ReferencedContainer = "container:ResponsiveDemos.xcodeproj">
+               BlueprintName = "AdaptiveDemos"
+               ReferencedContainer = "container:AdaptiveDemos.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,8 +30,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91C1D7CF1A18DBC8005C8B85"
                BuildableName = "ResponsiveDemosTests.xctest"
-               BlueprintName = "ResponsiveDemosTests"
-               ReferencedContainer = "container:ResponsiveDemos.xcodeproj">
+               BlueprintName = "AdaptiveDemosTests"
+               ReferencedContainer = "container:AdaptiveDemos.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,8 +48,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91C1D7CF1A18DBC8005C8B85"
                BuildableName = "ResponsiveDemosTests.xctest"
-               BlueprintName = "ResponsiveDemosTests"
-               ReferencedContainer = "container:ResponsiveDemos.xcodeproj">
+               BlueprintName = "AdaptiveDemosTests"
+               ReferencedContainer = "container:AdaptiveDemos.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,8 +58,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91C1D7BA1A18DBC8005C8B85"
             BuildableName = "ResponsiveDemos.app"
-            BlueprintName = "ResponsiveDemos"
-            ReferencedContainer = "container:ResponsiveDemos.xcodeproj">
+            BlueprintName = "AdaptiveDemos"
+            ReferencedContainer = "container:AdaptiveDemos.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,8 +77,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91C1D7BA1A18DBC8005C8B85"
             BuildableName = "ResponsiveDemos.app"
-            BlueprintName = "ResponsiveDemos"
-            ReferencedContainer = "container:ResponsiveDemos.xcodeproj">
+            BlueprintName = "AdaptiveDemos"
+            ReferencedContainer = "container:AdaptiveDemos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,8 +95,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91C1D7BA1A18DBC8005C8B85"
             BuildableName = "ResponsiveDemos.app"
-            BlueprintName = "ResponsiveDemos"
-            ReferencedContainer = "container:ResponsiveDemos.xcodeproj">
+            BlueprintName = "AdaptiveDemos"
+            ReferencedContainer = "container:AdaptiveDemos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
