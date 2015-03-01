@@ -690,10 +690,10 @@
             </objects>
             <point key="canvasLocation" x="-29" y="497"/>
         </scene>
-        <!--Responsive Content-->
+        <!--Adaptive Content-->
         <scene sceneID="EDS-VU-Hsb">
             <objects>
-                <tableViewController id="Kj0-Nv-wYs" userLabel="Responsive Content" sceneMemberID="viewController">
+                <tableViewController id="Kj0-Nv-wYs" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="DDw-og-Kvp">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
