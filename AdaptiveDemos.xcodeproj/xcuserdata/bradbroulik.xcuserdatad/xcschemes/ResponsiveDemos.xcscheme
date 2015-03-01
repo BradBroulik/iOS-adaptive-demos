@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91C1D7BA1A18DBC8005C8B85"
-               BuildableName = "ResponsiveDemos.app"
+               BuildableName = "AdaptiveDemos.app"
                BlueprintName = "AdaptiveDemos"
                ReferencedContainer = "container:AdaptiveDemos.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91C1D7CF1A18DBC8005C8B85"
-               BuildableName = "ResponsiveDemosTests.xctest"
+               BuildableName = "AdaptiveDemosTests.xctest"
                BlueprintName = "AdaptiveDemosTests"
                ReferencedContainer = "container:AdaptiveDemos.xcodeproj">
             </BuildableReference>
@@ -47,7 +47,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91C1D7CF1A18DBC8005C8B85"
-               BuildableName = "ResponsiveDemosTests.xctest"
+               BuildableName = "AdaptiveDemosTests.xctest"
                BlueprintName = "AdaptiveDemosTests"
                ReferencedContainer = "container:AdaptiveDemos.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91C1D7BA1A18DBC8005C8B85"
-            BuildableName = "ResponsiveDemos.app"
+            BuildableName = "AdaptiveDemos.app"
             BlueprintName = "AdaptiveDemos"
             ReferencedContainer = "container:AdaptiveDemos.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91C1D7BA1A18DBC8005C8B85"
-            BuildableName = "ResponsiveDemos.app"
+            BuildableName = "AdaptiveDemos.app"
             BlueprintName = "AdaptiveDemos"
             ReferencedContainer = "container:AdaptiveDemos.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91C1D7BA1A18DBC8005C8B85"
-            BuildableName = "ResponsiveDemos.app"
+            BuildableName = "AdaptiveDemos.app"
             BlueprintName = "AdaptiveDemos"
             ReferencedContainer = "container:AdaptiveDemos.xcodeproj">
          </BuildableReference>
