@@ -1,6 +1,6 @@
 //
-//  ResponsiveDemosTableViewController.swift
-//  ResponsiveDemos
+//  AdaptiveDemosTableViewController.swift
+//  AdaptiveDemos
 //
 //  Created by Brad Broulik on 11/26/14.
 //  Copyright (c) 2014 Brad Broulik. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ResponsiveDemosTableViewController: UITableViewController, UISplitViewControllerDelegate {
+class AdaptiveDemosTableViewController: UITableViewController, UISplitViewControllerDelegate {
 
     private var collapseDetailViewController = true
     

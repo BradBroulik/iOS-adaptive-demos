@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9131BA411A26641A003DF798 /* ResponsiveDemosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131BA401A26641A003DF798 /* ResponsiveDemosTableViewController.swift */; };
+		9131BA411A26641A003DF798 /* AdaptiveDemosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131BA401A26641A003DF798 /* AdaptiveDemosTableViewController.swift */; };
 		91456B241A2A9B7C001C0B64 /* PresentPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91456B231A2A9B7C001C0B64 /* PresentPopoverViewController.swift */; };
 		9168D57B1A504FF2007FB8BA /* MostlyFluidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9168D57A1A504FF2007FB8BA /* MostlyFluidViewController.swift */; };
 		91A023FA1A18EB5C00C93464 /* FlexibleFontsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A023F91A18EB5C00C93464 /* FlexibleFontsTableViewController.swift */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9131BA401A26641A003DF798 /* ResponsiveDemosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponsiveDemosTableViewController.swift; path = Controllers/ResponsiveDemosTableViewController.swift; sourceTree = "<group>"; };
+		9131BA401A26641A003DF798 /* AdaptiveDemosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdaptiveDemosTableViewController.swift; path = Controllers/AdaptiveDemosTableViewController.swift; sourceTree = "<group>"; };
 		91456B231A2A9B7C001C0B64 /* PresentPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresentPopoverViewController.swift; path = Controllers/PresentPopoverViewController.swift; sourceTree = "<group>"; };
 		9168D57A1A504FF2007FB8BA /* MostlyFluidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MostlyFluidViewController.swift; path = Controllers/MostlyFluidViewController.swift; sourceTree = "<group>"; };
 		91A023F91A18EB5C00C93464 /* FlexibleFontsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexibleFontsTableViewController.swift; path = Controllers/FlexibleFontsTableViewController.swift; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 				9168D57A1A504FF2007FB8BA /* MostlyFluidViewController.swift */,
 				91AAC9081A38826A004B6659 /* StaticCollectionViewController.swift */,
 				91A023F91A18EB5C00C93464 /* FlexibleFontsTableViewController.swift */,
-				9131BA401A26641A003DF798 /* ResponsiveDemosTableViewController.swift */,
+				9131BA401A26641A003DF798 /* AdaptiveDemosTableViewController.swift */,
 				91456B231A2A9B7C001C0B64 /* PresentPopoverViewController.swift */,
 				91B836901A2AA095000FB726 /* PopoverViewController.swift */,
 				91AAC8C21A311FCB004B6659 /* DetailViewController.swift */,
@@ -282,7 +282,7 @@
 				91AAC8C11A30E627004B6659 /* UIViewControllerExtensions.swift in Sources */,
 				91AAC90B1A3886A9004B6659 /* StaticCollectionViewDataSource.swift in Sources */,
 				91AAC90D1A38BA84004B6659 /* StaticCollectionViewCell.swift in Sources */,
-				9131BA411A26641A003DF798 /* ResponsiveDemosTableViewController.swift in Sources */,
+				9131BA411A26641A003DF798 /* AdaptiveDemosTableViewController.swift in Sources */,
 				91456B241A2A9B7C001C0B64 /* PresentPopoverViewController.swift in Sources */,
 				91C1D7C11A18DBC8005C8B85 /* AppDelegate.swift in Sources */,
 				91A023FA1A18EB5C00C93464 /* FlexibleFontsTableViewController.swift in Sources */,

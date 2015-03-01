@@ -6,7 +6,7 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--Responsive Images-->
+        <!--Adaptive Images-->
         <scene sceneID="kZC-hN-7mb">
             <objects>
                 <tableViewController id="6cX-BU-rzQ" sceneMemberID="viewController">
@@ -76,16 +76,16 @@
                             <outlet property="delegate" destination="6cX-BU-rzQ" id="y6e-2z-9sw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Responsive Images" id="Qag-dg-vtM"/>
+                    <navigationItem key="navigationItem" title="Adaptive Images" id="Qag-dg-vtM"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q4G-BO-WTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-754" y="-72"/>
         </scene>
-        <!--Responsive Demos-->
+        <!--Demos-->
         <scene sceneID="Nq9-cW-7Tv">
             <objects>
-                <tableViewController id="kpK-Lz-rFZ" customClass="ResponsiveDemosTableViewController" customModule="ResponsiveDemos" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="kpK-Lz-rFZ" customClass="AdaptiveDemosTableViewController" customModule="AdaptiveDemos" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="UP2-iF-5bo">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -93,12 +93,12 @@
                         <sections>
                             <tableViewSection id="Lfh-Pm-uXo">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="cd0-jb-SkK" style="IBUITableViewCellStyleDefault" id="8bV-a7-aOn" userLabel="ResponsiveLayoutsCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="cd0-jb-SkK" style="IBUITableViewCellStyleDefault" id="8bV-a7-aOn" userLabel="AdaptiveLayoutsCell">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8bV-a7-aOn" id="CDm-DZ-0Qx">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Responsive Layouts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cd0-jb-SkK" userLabel="Responsive Layouts">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Adaptive Layouts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cd0-jb-SkK">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -110,12 +110,12 @@
                                             <segue destination="7gS-Sj-lTO" kind="show" id="41Q-re-4H7"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="MNY-7a-FoO" style="IBUITableViewCellStyleDefault" id="z9l-bc-0NS" userLabel="ResponsiveContentCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="MNY-7a-FoO" style="IBUITableViewCellStyleDefault" id="z9l-bc-0NS" userLabel="AdaptiveContentCell">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z9l-bc-0NS" id="b7A-hU-39U">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Responsive Content" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MNY-7a-FoO">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Adaptive Content" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MNY-7a-FoO">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -127,12 +127,12 @@
                                             <segue destination="Kj0-Nv-wYs" kind="show" id="ghY-jo-rDD"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="Zo0-Kx-ZW9" style="IBUITableViewCellStyleDefault" id="qUW-wv-qRe" userLabel="ResponsiveImagesCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="Zo0-Kx-ZW9" style="IBUITableViewCellStyleDefault" id="qUW-wv-qRe" userLabel="AdaptiveImagesCell">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qUW-wv-qRe" id="kZo-aR-EaT">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Responsive Images" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zo0-Kx-ZW9">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Adaptive Images" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zo0-Kx-ZW9">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -152,7 +152,7 @@
                             <outlet property="delegate" destination="kpK-Lz-rFZ" id="JRH-M2-HWo"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Responsive Demos" id="jCH-bT-WPO"/>
+                    <navigationItem key="navigationItem" title="Demos" id="jCH-bT-WPO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh8-ro-q6i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -161,7 +161,7 @@
         <!--Images by Display Scale-->
         <scene sceneID="SGq-8Y-k2r">
             <objects>
-                <viewController id="ErO-gV-aA5" customClass="DetailViewController" customModule="ResponsiveDemos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ErO-gV-aA5" customClass="DetailViewController" customModule="AdaptiveDemos" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rwv-qr-VgK"/>
                         <viewControllerLayoutGuide type="bottom" id="CsR-aR-Gf8"/>
@@ -247,13 +247,13 @@
         <!--Dynamic Type & Self-sizing Cells-->
         <scene sceneID="WQ9-HJ-2El">
             <objects>
-                <tableViewController id="xVD-Br-vIX" customClass="FlexibleFontsViewController" customModule="ResponsiveDemos" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="xVD-Br-vIX" customClass="FlexibleFontsViewController" customModule="AdaptiveDemos" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="68" sectionHeaderHeight="22" sectionFooterHeight="22" id="nWz-ve-f9B">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="68" id="rKO-hI-HW3" customClass="CustomSubtitleTableViewCell" customModule="ResponsiveDemos" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="68" id="rKO-hI-HW3" customClass="CustomSubtitleTableViewCell" customModule="AdaptiveDemos" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rKO-hI-HW3" id="TOq-tX-FoA">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -325,7 +325,7 @@
         <!--Images by Size Class-->
         <scene sceneID="7dO-YQ-uEk">
             <objects>
-                <viewController id="0nX-Kc-P1N" customClass="DetailViewController" customModule="ResponsiveDemos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0nX-Kc-P1N" customClass="DetailViewController" customModule="AdaptiveDemos" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mnJ-xu-T1n"/>
                         <viewControllerLayoutGuide type="bottom" id="6fz-5N-qgH"/>
@@ -367,7 +367,7 @@
         <!--Vector Images-->
         <scene sceneID="i8Y-bD-nYP">
             <objects>
-                <viewController id="HpE-nA-ECR" customClass="DetailViewController" customModule="ResponsiveDemos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HpE-nA-ECR" customClass="DetailViewController" customModule="AdaptiveDemos" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CPn-lA-t8a"/>
                         <viewControllerLayoutGuide type="bottom" id="CBT-hd-zYZ"/>
@@ -421,7 +421,7 @@
         <!--Popover Example-->
         <scene sceneID="nsi-bZ-vf6">
             <objects>
-                <viewController id="qvE-EV-N0D" customClass="PresentPopoverViewController" customModule="ResponsiveDemos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qvE-EV-N0D" customClass="PresentPopoverViewController" customModule="AdaptiveDemos" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="thP-Qx-TzS"/>
                         <viewControllerLayoutGuide type="bottom" id="dtI-Jl-cs7"/>
@@ -468,7 +468,7 @@
         <!--Grid Layout-->
         <scene sceneID="Vj8-0c-sDP">
             <objects>
-                <collectionViewController id="rpq-i5-6uh" customClass="StaticCollectionViewController" customModule="ResponsiveDemos" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="rpq-i5-6uh" customClass="StaticCollectionViewController" customModule="AdaptiveDemos" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="phn-jd-f9Y">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -480,7 +480,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StaticCollectionViewCell" id="jBS-bL-isv" customClass="StaticCollectionViewCell" customModule="ResponsiveDemos" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StaticCollectionViewCell" id="jBS-bL-isv" customClass="StaticCollectionViewCell" customModule="AdaptiveDemos" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -514,14 +514,14 @@
                     <navigationItem key="navigationItem" title="Grid Layout" id="cFU-lN-f1x"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ie-wH-uwg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="eFP-Fw-fyF" customClass="StaticCollectionViewDataSource" customModule="ResponsiveDemos" customModuleProvider="target"/>
+                <customObject id="eFP-Fw-fyF" customClass="StaticCollectionViewDataSource" customModule="AdaptiveDemos" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="645" y="2774"/>
         </scene>
         <!--Mostly Fluid Layout-->
         <scene sceneID="li1-gd-hyq">
             <objects>
-                <viewController id="7bm-GJ-PaJ" customClass="MostlyFluidViewController" customModule="ResponsiveDemos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7bm-GJ-PaJ" customClass="MostlyFluidViewController" customModule="AdaptiveDemos" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Wdu-Dr-IeC"/>
                         <viewControllerLayoutGuide type="bottom" id="uyl-Lt-GzZ"/>
@@ -626,7 +626,7 @@
         <!--Popover View Controller-->
         <scene sceneID="xiE-tZ-ETd">
             <objects>
-                <viewController storyboardIdentifier="myPopover" id="GgL-ud-yqd" customClass="PopoverViewController" customModule="ResponsiveDemos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="myPopover" id="GgL-ud-yqd" customClass="PopoverViewController" customModule="AdaptiveDemos" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4v8-Pu-bbE"/>
                         <viewControllerLayoutGuide type="bottom" id="5an-Qg-3Z9"/>
@@ -743,7 +743,7 @@
                             <outlet property="delegate" destination="Kj0-Nv-wYs" id="CAz-zj-SSE"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Responsive Content" id="Amt-pD-qlO"/>
+                    <navigationItem key="navigationItem" title="Adaptive Content" id="Amt-pD-qlO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0d-qS-x7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -760,7 +760,7 @@
                         <sections>
                             <tableViewSection id="4YX-fs-Fea">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="17W-EI-Fgz" style="IBUITableViewCellStyleDefault" id="NEm-1A-pWL" userLabel="ResponsiveLayoutCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="17W-EI-Fgz" style="IBUITableViewCellStyleDefault" id="NEm-1A-pWL" userLabel="AdaptiveLayoutCell">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NEm-1A-pWL" id="vaQ-vP-lza">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -777,7 +777,7 @@
                                             <segue destination="uwL-is-82a" kind="showDetail" id="f39-Sn-Ajx"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="TLr-V4-CFp" style="IBUITableViewCellStyleDefault" id="J0t-HO-gGD" userLabel="ResponsiveLayoutCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="TLr-V4-CFp" style="IBUITableViewCellStyleDefault" id="J0t-HO-gGD" userLabel="AdaptiveLayoutCell">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="J0t-HO-gGD" id="kZ3-6c-aQ4">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -802,7 +802,7 @@
                             <outlet property="delegate" destination="7gS-Sj-lTO" id="Mwp-ka-FXw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Responsive Layouts" id="hea-Gc-0LA"/>
+                    <navigationItem key="navigationItem" title="Adaptive Layouts" id="hea-Gc-0LA"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kCB-yz-PcE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
