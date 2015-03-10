@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2YL-cb-uMm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2YL-cb-uMm">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -17,12 +17,12 @@
                         <sections>
                             <tableViewSection id="X5b-v5-qkK">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="mTe-7G-dMC" style="IBUITableViewCellStyleDefault" id="DLt-dh-DH6" userLabel="ResponsiveImagesCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="VFX-4f-Pzq" style="IBUITableViewCellStyleDefault" id="Suw-t4-hYp" userLabel="ResponsiveImagesCell">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DLt-dh-DH6" id="phU-a6-H0a">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Suw-t4-hYp" id="7CC-Vb-gLv">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Images by Display Scale" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mTe-7G-dMC" userLabel="Image1">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Images by Display Scale" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VFX-4f-Pzq" userLabel="Image1">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -31,7 +31,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="553-KK-b5E" kind="showDetail" id="wVo-iF-LLh"/>
+                                            <segue destination="553-KK-b5E" kind="showDetail" id="6Ab-LO-H45"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="BIT-bw-8fj" style="IBUITableViewCellStyleDefault" id="cmI-nb-Olv" userLabel="ResponsiveImagesCell">
@@ -49,6 +49,23 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="PkV-h5-zof" kind="showDetail" id="xqg-qv-PsF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="mTe-7G-dMC" style="IBUITableViewCellStyleDefault" id="DLt-dh-DH6" userLabel="ResponsiveImagesCell">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DLt-dh-DH6" id="phU-a6-H0a">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Art Direction" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mTe-7G-dMC" userLabel="Image1">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vXD-31-csN" kind="showDetail" id="S2t-k6-Kwf"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DemoCell" textLabel="j0E-yk-kFW" style="IBUITableViewCellStyleDefault" id="LLZ-Ii-jjy" userLabel="ResponsiveImagesCell">
@@ -80,7 +97,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q4G-BO-WTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-754" y="-72"/>
+            <point key="canvasLocation" x="-744" y="-77"/>
         </scene>
         <!--Demos-->
         <scene sceneID="Nq9-cW-7Tv">
@@ -157,6 +174,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh8-ro-q6i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1886" y="2325"/>
+        </scene>
+        <!--Art Direction-->
+        <scene sceneID="aJ4-KA-sfe">
+            <objects>
+                <viewController id="tUA-ib-asp" customClass="DetailViewController" customModule="AdaptiveDemos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aHG-MT-hMn"/>
+                        <viewControllerLayoutGuide type="bottom" id="j2N-lK-N85"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NAL-rx-SaM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lincoln" translatesAutoresizingMaskIntoConstraints="NO" id="rcE-KM-Xzi">
+                                <rect key="frame" x="16" y="64" width="568" height="536"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="rcE-KM-Xzi" secondAttribute="trailing" id="7dd-yd-ECC"/>
+                            <constraint firstItem="j2N-lK-N85" firstAttribute="top" secondItem="rcE-KM-Xzi" secondAttribute="bottom" id="9px-Mw-rkp"/>
+                            <constraint firstAttribute="centerX" secondItem="rcE-KM-Xzi" secondAttribute="centerX" id="GKC-ZA-2BD"/>
+                            <constraint firstAttribute="centerY" secondItem="rcE-KM-Xzi" secondAttribute="centerY" id="PEA-ZG-cAz"/>
+                            <constraint firstAttribute="centerX" secondItem="rcE-KM-Xzi" secondAttribute="centerX" id="V0q-wo-uDp"/>
+                            <constraint firstAttribute="centerY" secondItem="rcE-KM-Xzi" secondAttribute="centerY" id="Wej-Pa-0la"/>
+                            <constraint firstItem="rcE-KM-Xzi" firstAttribute="top" secondItem="aHG-MT-hMn" secondAttribute="bottom" id="WyG-mm-NsZ"/>
+                            <constraint firstItem="rcE-KM-Xzi" firstAttribute="leading" secondItem="NAL-rx-SaM" secondAttribute="leadingMargin" id="lTY-ZO-YNr"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="GKC-ZA-2BD"/>
+                                <exclude reference="PEA-ZG-cAz"/>
+                                <exclude reference="V0q-wo-uDp"/>
+                                <exclude reference="Wej-Pa-0la"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Art Direction" id="nG7-Hd-Gx3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9WD-Mw-xFn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="645" y="-1485"/>
         </scene>
         <!--Images by Display Scale-->
         <scene sceneID="SGq-8Y-k2r">
@@ -880,9 +939,28 @@
             </objects>
             <point key="canvasLocation" x="-30" y="3462"/>
         </scene>
+        <!--Art Direction-->
+        <scene sceneID="Zws-1N-GDA">
+            <objects>
+                <navigationController title="Art Direction" automaticallyAdjustsScrollViewInsets="NO" id="vXD-31-csN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SDd-KT-Klx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tUA-ib-asp" kind="relationship" relationship="rootViewController" id="p2q-m0-bfJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gUI-03-WSi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-29" y="-1485"/>
+        </scene>
     </scenes>
     <resources>
         <image name="circle" width="150" height="150"/>
+        <image name="lincoln" width="1024" height="683"/>
         <image name="lock" width="22" height="22"/>
         <image name="oval" width="320" height="240"/>
     </resources>
