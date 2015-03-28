@@ -619,7 +619,6 @@
                                     <constraint firstAttribute="trailing" secondItem="Reh-sL-isI" secondAttribute="trailing" constant="20" id="6Fm-AR-pSY">
                                         <variation key="widthClass=regular" constant="20"/>
                                     </constraint>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Xd9-h1-WH9" secondAttribute="trailing" constant="51" id="73H-xP-Htr"/>
                                     <constraint firstAttribute="centerX" secondItem="Reh-sL-isI" secondAttribute="centerX" id="93n-82-7Sf"/>
                                     <constraint firstItem="Xd9-h1-WH9" firstAttribute="leading" secondItem="2I0-2t-wz5" secondAttribute="trailing" constant="30" id="97z-sV-d8f"/>
                                     <constraint firstAttribute="bottom" secondItem="Xd9-h1-WH9" secondAttribute="bottom" constant="76" id="ETg-jn-oQw"/>
@@ -632,8 +631,6 @@
                                     <constraint firstItem="Xd9-h1-WH9" firstAttribute="top" secondItem="2I0-2t-wz5" secondAttribute="bottom" constant="30" id="faD-Mk-Oxp"/>
                                     <constraint firstItem="2I0-2t-wz5" firstAttribute="top" secondItem="Reh-sL-isI" secondAttribute="bottom" constant="30" id="ir3-B2-tHB"/>
                                     <constraint firstItem="Xd9-h1-WH9" firstAttribute="top" secondItem="Reh-sL-isI" secondAttribute="bottom" constant="30" id="mUd-Hg-8lA"/>
-                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Xd9-h1-WH9" secondAttribute="bottom" constant="150" id="tbh-3b-ACU"/>
-                                    <constraint firstItem="Xd9-h1-WH9" firstAttribute="top" secondItem="Reh-sL-isI" secondAttribute="bottom" constant="30" id="v2b-65-QN6"/>
                                     <constraint firstItem="Reh-sL-isI" firstAttribute="top" secondItem="uFo-0b-p2U" secondAttribute="top" constant="20" id="w5j-BV-zEc"/>
                                     <constraint firstItem="Reh-sL-isI" firstAttribute="leading" secondItem="uFo-0b-p2U" secondAttribute="leading" constant="20" id="zdE-Z1-D67"/>
                                 </constraints>
@@ -642,11 +639,8 @@
                                         <exclude reference="93n-82-7Sf"/>
                                         <exclude reference="Zqu-jZ-eGv"/>
                                         <exclude reference="ir3-B2-tHB"/>
-                                        <exclude reference="73H-xP-Htr"/>
                                         <exclude reference="97z-sV-d8f"/>
                                         <exclude reference="mUd-Hg-8lA"/>
-                                        <exclude reference="tbh-3b-ACU"/>
-                                        <exclude reference="v2b-65-QN6"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=regular">
@@ -657,13 +651,10 @@
                                         <exclude reference="TxK-GE-fTs"/>
                                         <include reference="Zqu-jZ-eGv"/>
                                         <include reference="ir3-B2-tHB"/>
-                                        <exclude reference="73H-xP-Htr"/>
                                         <include reference="97z-sV-d8f"/>
                                         <exclude reference="Q5U-Mu-ilN"/>
                                         <exclude reference="faD-Mk-Oxp"/>
                                         <include reference="mUd-Hg-8lA"/>
-                                        <exclude reference="tbh-3b-ACU"/>
-                                        <exclude reference="v2b-65-QN6"/>
                                     </mask>
                                 </variation>
                             </scrollView>
