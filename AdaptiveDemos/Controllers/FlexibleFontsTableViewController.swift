@@ -9,7 +9,7 @@
 import UIKit
 
 class FlexibleFontsViewController: UITableViewController {
-    var clinics:[String: String] = [
+    var clinics = [
         "Mayo Clinic":                  "5300 Grand Del Mar Flu Court, Rochester, MN 55130",
         "Cleveland Clinic":             "166 Wellness St, Cleveland, OH 73666",
         "Hospital of Cornell":          "6526 Rx Yount Street, New York, NY 83877",
