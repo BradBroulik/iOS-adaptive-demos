@@ -33,11 +33,11 @@ class PresentPopoverViewController: UIViewController, UIPopoverPresentationContr
     }
 
     // MARK: - UIPopoverPresentationControllerDelegate
-    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController!) -> UIModalPresentationStyle {
+    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
         return .FullScreen
     }
     
-    func presentationController(controller: UIPresentationController!, viewControllerForAdaptivePresentationStyle style: UIModalPresentationStyle) -> UIViewController! {
+    func presentationController(controller: UIPresentationController, viewControllerForAdaptivePresentationStyle style: UIModalPresentationStyle) -> UIViewController {
         return UINavigationController(rootViewController: controller.presentedViewController)
     }
 

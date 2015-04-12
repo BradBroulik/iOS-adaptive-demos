@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "lincoln.jpg"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "lincoln.jpg"
     },
     {
       "idiom" : "universal",
@@ -15,14 +15,14 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "lincoln_cropped.jpg",
-      "widthClass" : "compact",
-      "scale" : "1x"
+      "scale" : "1x",
+      "widthClass" : "compact"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "widthClass" : "compact"
+      "filename" : "lincoln_cropped.jpg",
+      "widthClass" : "compact",
+      "scale" : "2x"
     },
     {
       "idiom" : "universal",

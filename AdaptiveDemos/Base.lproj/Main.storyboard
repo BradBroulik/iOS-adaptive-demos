@@ -393,7 +393,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="oval" translatesAutoresizingMaskIntoConstraints="NO" id="gCX-jL-SEb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oval" translatesAutoresizingMaskIntoConstraints="NO" id="gCX-jL-SEb">
                                 <rect key="frame" x="140" y="180" width="320" height="240"/>
                             </imageView>
                         </subviews>
@@ -951,7 +951,7 @@
     </scenes>
     <resources>
         <image name="circle" width="150" height="150"/>
-        <image name="lincoln" width="512" height="476"/>
+        <image name="lincoln" width="256" height="238"/>
         <image name="lock" width="22" height="22"/>
         <image name="oval" width="160" height="120"/>
     </resources>
