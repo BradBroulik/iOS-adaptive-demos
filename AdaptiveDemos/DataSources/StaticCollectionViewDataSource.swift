@@ -26,7 +26,7 @@ class StaticCollectionViewDataSource: NSObject, UICollectionViewDataSource {
     ]
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as StaticCollectionViewCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! StaticCollectionViewCell
         
         cell.clinicName.text = data[indexPath.row]
         

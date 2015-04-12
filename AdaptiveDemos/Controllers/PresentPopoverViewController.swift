@@ -22,7 +22,7 @@ class PresentPopoverViewController: UIViewController, UIPopoverPresentationContr
     }
     
     @IBAction func handlePopoverPressed(sender: UIBarButtonItem) {
-        let popoverVC = storyboard?.instantiateViewControllerWithIdentifier("myPopover") as UIViewController
+        let popoverVC = storyboard?.instantiateViewControllerWithIdentifier("myPopover") as! UIViewController
         popoverVC.modalPresentationStyle = .Popover
         if let popoverController = popoverVC.popoverPresentationController {
             popoverController.barButtonItem = sender
