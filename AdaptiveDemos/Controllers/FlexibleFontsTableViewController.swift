@@ -1,14 +1,7 @@
-//
-//  ViewController.swift
-//  SelfSizingDemo
-//
-//  Created by Simon Ng on 4/9/14.
-//  Copyright (c) 2014 AppCoda. All rights reserved.
-//
-
 import UIKit
 
 class FlexibleFontsViewController: UITableViewController {
+    
     var clinics = [
         "Mayo Clinic":                  "5300 Grand Del Mar Flu Court, Rochester, MN 55130",
         "Cleveland Clinic":             "166 Wellness St, Cleveland, OH 73666",
@@ -40,7 +33,11 @@ class FlexibleFontsViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    // MARK: - Table View Delegate
+}
+
+// MARK: - Table View Delegate
+extension FlexibleFontsViewController: UITableViewDataSource {
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return clinics.count
     }
@@ -52,8 +49,8 @@ class FlexibleFontsViewController: UITableViewController {
         let clinicName = clinicNames[indexPath.row]
         cell.titleLabel.text = clinicName
         cell.detailLabel.text = clinics[clinicName]
-
+        
         return cell
     }
+    
 }
-

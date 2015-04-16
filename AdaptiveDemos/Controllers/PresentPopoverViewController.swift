@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PresentPopoverViewController: UIViewController, UIPopoverPresentationControllerDelegate {
+class PresentPopoverViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +33,11 @@ class PresentPopoverViewController: UIViewController, UIPopoverPresentationContr
         }
     }
 
-    // MARK: - UIPopoverPresentationControllerDelegate
+}
+
+// MARK: - UIPopoverPresentationControllerDelegate
+extension PresentPopoverViewController: UIPopoverPresentationControllerDelegate {
+    
     func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
         return .FullScreen
     }
@@ -41,5 +45,4 @@ class PresentPopoverViewController: UIViewController, UIPopoverPresentationContr
     func presentationController(controller: UIPresentationController, viewControllerForAdaptivePresentationStyle style: UIModalPresentationStyle) -> UIViewController? {
         return UINavigationController(rootViewController: controller.presentedViewController)
     }
-
 }

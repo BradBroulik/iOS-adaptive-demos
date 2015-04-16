@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AdaptiveDemosTableViewController: UITableViewController, UISplitViewControllerDelegate {
+class AdaptiveDemosTableViewController: UITableViewController {
 
     private var collapseDetailViewController = true
     
@@ -27,18 +27,24 @@ class AdaptiveDemosTableViewController: UITableViewController, UISplitViewContro
     @IBAction func unwindToList(segue: UIStoryboardSegue) {
         println("unwind from popover")
     }
-    
-    // MARK: Table View Delegate
+
+}
+
+// MARK: Table View Delegate
+extension AdaptiveDemosTableViewController: UITableViewDelegate {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         collapseDetailViewController = false
     }
     
-    // MARK: - UISplitViewControllerDelegate
+}
+
+// MARK: - UISplitViewControllerDelegate
+extension AdaptiveDemosTableViewController: UISplitViewControllerDelegate {
     
     /* Make the master view displayed first on iPhone 6 Plus in portrait. */
     func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController: UIViewController!, ontoPrimaryViewController primaryViewController: UIViewController!) -> Bool {
         return collapseDetailViewController
     }
-
+    
 }
