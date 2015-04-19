@@ -42,6 +42,11 @@ extension PresentPopoverViewController: UIPopoverPresentationControllerDelegate 
         return .FullScreen
     }
     
+    // NOTE: iPhone 6 Plus in landscape shows popover as FormSheet.  Implement this delegate method for desired behavior.
+//    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController, traitCollection: UITraitCollection) -> UIModalPresentationStyle {
+//        return .FullScreen
+//    }
+    
     func presentationController(controller: UIPresentationController, viewControllerForAdaptivePresentationStyle style: UIModalPresentationStyle) -> UIViewController? {
         return UINavigationController(rootViewController: controller.presentedViewController)
     }
