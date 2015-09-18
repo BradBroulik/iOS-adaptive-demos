@@ -33,11 +33,8 @@ class FlexibleFontsViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-}
-
-// MARK: - Table View Delegate
-extension FlexibleFontsViewController: UITableViewDataSource {
     
+    // MARK: - Table View Delegate
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return clinics.count
     }

@@ -16,13 +16,14 @@ class PresentPopoverViewController: UIViewController {
         showLeftBarButtonItem()
     }
 
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     @IBAction func handlePopoverPressed(sender: UIBarButtonItem) {
-        if let popoverVC = storyboard?.instantiateViewControllerWithIdentifier("myPopover") as? UIViewController {
+        if let popoverVC = storyboard?.instantiateViewControllerWithIdentifier("myPopover") as UIViewController! {
             popoverVC.modalPresentationStyle = .Popover
             if let popoverController = popoverVC.popoverPresentationController {
                 popoverController.barButtonItem = sender

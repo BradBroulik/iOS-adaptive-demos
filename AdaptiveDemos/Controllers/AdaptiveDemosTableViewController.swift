@@ -25,14 +25,11 @@ class AdaptiveDemosTableViewController: UITableViewController {
     }
 
     @IBAction func unwindToList(segue: UIStoryboardSegue) {
-        println("unwind from popover")
+        print("unwind from popover")
     }
 
-}
-
-// MARK: Table View Delegate
-extension AdaptiveDemosTableViewController: UITableViewDelegate {
     
+    // MARK: Table View Delegate
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         collapseDetailViewController = false
     }
@@ -43,7 +40,7 @@ extension AdaptiveDemosTableViewController: UITableViewDelegate {
 extension AdaptiveDemosTableViewController: UISplitViewControllerDelegate {
     
     /* Make the master view displayed first on iPhone 6 Plus in portrait. */
-    func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController: UIViewController!, ontoPrimaryViewController primaryViewController: UIViewController!) -> Bool {
+    func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController: UIViewController, ontoPrimaryViewController primaryViewController: UIViewController) -> Bool {
         return collapseDetailViewController
     }
     

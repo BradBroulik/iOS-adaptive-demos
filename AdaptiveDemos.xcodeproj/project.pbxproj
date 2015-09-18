@@ -10,6 +10,7 @@
 		9131BA411A26641A003DF798 /* AdaptiveDemosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131BA401A26641A003DF798 /* AdaptiveDemosTableViewController.swift */; };
 		91456B241A2A9B7C001C0B64 /* PresentPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91456B231A2A9B7C001C0B64 /* PresentPopoverViewController.swift */; };
 		9168D57B1A504FF2007FB8BA /* MostlyFluidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9168D57A1A504FF2007FB8BA /* MostlyFluidViewController.swift */; };
+		918C26871B67AFA10032BB7B /* AdaptiveDemosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C26861B67AFA10032BB7B /* AdaptiveDemosUITests.swift */; };
 		91A023FA1A18EB5C00C93464 /* FlexibleFontsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A023F91A18EB5C00C93464 /* FlexibleFontsTableViewController.swift */; };
 		91A023FC1A18F8DE00C93464 /* CustomSubtitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A023FB1A18F8DE00C93464 /* CustomSubtitleTableViewCell.swift */; };
 		91AAC8C11A30E627004B6659 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AAC8C01A30E627004B6659 /* UIViewControllerExtensions.swift */; };
@@ -26,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		918C26891B67AFA10032BB7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91C1D7B31A18DBC8005C8B85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91C1D7BA1A18DBC8005C8B85;
+			remoteInfo = AdaptiveDemos;
+		};
 		91C1D7D11A18DBC8005C8B85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 91C1D7B31A18DBC8005C8B85 /* Project object */;
@@ -39,6 +47,9 @@
 		9131BA401A26641A003DF798 /* AdaptiveDemosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdaptiveDemosTableViewController.swift; path = Controllers/AdaptiveDemosTableViewController.swift; sourceTree = "<group>"; };
 		91456B231A2A9B7C001C0B64 /* PresentPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresentPopoverViewController.swift; path = Controllers/PresentPopoverViewController.swift; sourceTree = "<group>"; };
 		9168D57A1A504FF2007FB8BA /* MostlyFluidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MostlyFluidViewController.swift; path = Controllers/MostlyFluidViewController.swift; sourceTree = "<group>"; };
+		918C26841B67AFA10032BB7B /* AdaptiveDemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdaptiveDemosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		918C26861B67AFA10032BB7B /* AdaptiveDemosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveDemosUITests.swift; sourceTree = "<group>"; };
+		918C26881B67AFA10032BB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91A023F91A18EB5C00C93464 /* FlexibleFontsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexibleFontsTableViewController.swift; path = Controllers/FlexibleFontsTableViewController.swift; sourceTree = "<group>"; };
 		91A023FB1A18F8DE00C93464 /* CustomSubtitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSubtitleTableViewCell.swift; sourceTree = "<group>"; };
 		91AAC8C01A30E627004B6659 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = Extensions/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
@@ -59,6 +70,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		918C26811B67AFA10032BB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91C1D7B81A18DBC8005C8B85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,11 +94,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		918C26851B67AFA10032BB7B /* AdaptiveDemosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				918C26861B67AFA10032BB7B /* AdaptiveDemosUITests.swift */,
+				918C26881B67AFA10032BB7B /* Info.plist */,
+			);
+			path = AdaptiveDemosUITests;
+			sourceTree = "<group>";
+		};
 		91C1D7B21A18DBC8005C8B85 = {
 			isa = PBXGroup;
 			children = (
 				91C1D7BD1A18DBC8005C8B85 /* AdpativeDemos */,
 				91C1D7D31A18DBC8005C8B85 /* AdaptiveDemosTests */,
+				918C26851B67AFA10032BB7B /* AdaptiveDemosUITests */,
 				91C1D7BC1A18DBC8005C8B85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +118,7 @@
 			children = (
 				91C1D7BB1A18DBC8005C8B85 /* AdaptiveDemos.app */,
 				91C1D7D01A18DBC8005C8B85 /* AdaptiveDemosTests.xctest */,
+				918C26841B67AFA10032BB7B /* AdaptiveDemosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,6 +207,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		918C26831B67AFA10032BB7B /* AdaptiveDemosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918C268B1B67AFA10032BB7B /* Build configuration list for PBXNativeTarget "AdaptiveDemosUITests" */;
+			buildPhases = (
+				918C26801B67AFA10032BB7B /* Sources */,
+				918C26811B67AFA10032BB7B /* Frameworks */,
+				918C26821B67AFA10032BB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				918C268A1B67AFA10032BB7B /* PBXTargetDependency */,
+			);
+			name = AdaptiveDemosUITests;
+			productName = AdaptiveDemosUITests;
+			productReference = 918C26841B67AFA10032BB7B /* AdaptiveDemosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		91C1D7BA1A18DBC8005C8B85 /* AdaptiveDemos */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91C1D7DA1A18DBC8005C8B85 /* Build configuration list for PBXNativeTarget "AdaptiveDemos" */;
@@ -219,9 +266,15 @@
 		91C1D7B31A18DBC8005C8B85 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Brad Broulik";
 				TargetAttributes = {
+					918C26831B67AFA10032BB7B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 91C1D7BA1A18DBC8005C8B85;
+					};
 					91C1D7BA1A18DBC8005C8B85 = {
 						CreatedOnToolsVersion = 6.1;
 					};
@@ -246,11 +299,19 @@
 			targets = (
 				91C1D7BA1A18DBC8005C8B85 /* AdaptiveDemos */,
 				91C1D7CF1A18DBC8005C8B85 /* AdaptiveDemosTests */,
+				918C26831B67AFA10032BB7B /* AdaptiveDemosUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		918C26821B67AFA10032BB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91C1D7B91A18DBC8005C8B85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,6 +332,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		918C26801B67AFA10032BB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918C26871B67AFA10032BB7B /* AdaptiveDemosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91C1D7B71A18DBC8005C8B85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,6 +370,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		918C268A1B67AFA10032BB7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91C1D7BA1A18DBC8005C8B85 /* AdaptiveDemos */;
+			targetProxy = 918C26891B67AFA10032BB7B /* PBXContainerItemProxy */;
+		};
 		91C1D7D21A18DBC8005C8B85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 91C1D7BA1A18DBC8005C8B85 /* AdaptiveDemos */;
@@ -328,6 +402,37 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		918C268C1B67AFA10032BB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = AdaptiveDemosUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradbroulik.AdaptiveDemosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdaptiveDemos;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		918C268D1B67AFA10032BB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = AdaptiveDemosUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradbroulik.AdaptiveDemosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdaptiveDemos;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		91C1D7D81A18DBC8005C8B85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -348,6 +453,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -414,6 +520,7 @@
 				INFOPLIST_FILE = AdaptiveDemos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bradbroulik.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AdaptiveDemos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -426,6 +533,7 @@
 				INFOPLIST_FILE = AdaptiveDemos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bradbroulik.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AdaptiveDemos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,6 +553,7 @@
 				);
 				INFOPLIST_FILE = AdaptiveDemosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bradbroulik.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AdaptiveDemosTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdaptiveDemos.app/AdaptiveDemos";
 			};
@@ -460,6 +569,7 @@
 				);
 				INFOPLIST_FILE = AdaptiveDemosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bradbroulik.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AdaptiveDemosTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdaptiveDemos.app/AdaptiveDemos";
 			};
@@ -468,6 +578,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		918C268B1B67AFA10032BB7B /* Build configuration list for PBXNativeTarget "AdaptiveDemosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918C268C1B67AFA10032BB7B /* Debug */,
+				918C268D1B67AFA10032BB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		91C1D7B61A18DBC8005C8B85 /* Build configuration list for PBXProject "AdaptiveDemos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
